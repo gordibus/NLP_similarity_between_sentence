@@ -1,0 +1,432 @@
+{
+  "euclidean": [
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "resultat": [
+        [
+          0.0,
+          3.605551275463989
+        ],
+        [
+          3.605551275463989,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          4.58257569495584
+        ],
+        [
+          4.58257569495584,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          4.58257569495584
+        ],
+        [
+          4.58257569495584,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          4.47213595499958
+        ],
+        [
+          4.47213595499958,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          4.47213595499958
+        ],
+        [
+          4.47213595499958,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          2.449489742783178
+        ],
+        [
+          2.449489742783178,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "jaccard": [
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "resultat": [
+        [
+          0.0,
+          0.7647058823529411
+        ],
+        [
+          0.7647058823529411,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          0.9545454545454546
+        ],
+        [
+          0.9545454545454546,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          0.9545454545454546
+        ],
+        [
+          0.9545454545454546,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          0.42857142857142855
+        ],
+        [
+          0.42857142857142855,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "manhattan": [
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "resultat": [
+        [
+          0.0,
+          13.0
+        ],
+        [
+          13.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          21.0
+        ],
+        [
+          21.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          21.0
+        ],
+        [
+          21.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          20.0
+        ],
+        [
+          20.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          20.0
+        ],
+        [
+          20.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          6.0
+        ],
+        [
+          6.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "chebyshev": [
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "resultat": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "minkowski": [
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "resultat": [
+        [
+          0.0,
+          3.605551275463989
+        ],
+        [
+          3.605551275463989,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          4.58257569495584
+        ],
+        [
+          4.58257569495584,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste1": "ceci est un test, n\u00e9anmoins je ne pense pas que cela fonctionne ?",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          4.58257569495584
+        ],
+        [
+          4.58257569495584,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "resultat": [
+        [
+          0.0,
+          4.47213595499958
+        ],
+        [
+          4.47213595499958,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste2": "ceci et un test, cependant sa fonctionnalit\u00e9 m'est m\u00e9connu",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          4.47213595499958
+        ],
+        [
+          4.47213595499958,
+          0.0
+        ]
+      ]
+    },
+    {
+      "phrase_teste3": "Sur la plan\u00e8te Mars il n'y a pas de plan B pour le climat",
+      "sphrase_teste4": "Sur la planete Mar il n'y a pas de plan b pour le clima",
+      "resultat": [
+        [
+          0.0,
+          2.449489742783178
+        ],
+        [
+          2.449489742783178,
+          0.0
+        ]
+      ]
+    }
+  ]
+}
